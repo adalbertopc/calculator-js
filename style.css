@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #512b58;
+}
+
+h1 {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.calculator {
+    width: 400px;
+    background: #f1f3f4;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.calculator .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.calculator #txt-numbers {
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 3px solid #512b58;
+    border-radius: 5px;
+}
+
+.calculator .btn-numbers {
+    width: 70%;
+}
+
+.calculator .btn-operations {
+    width: 30%;
+}
+
+.btn,
+.equals {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: #2a7886;
+    color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.equals:hover {
+    background: #512b58;
+}
+
+.clean {
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    background: #f1f3f4;
+    border-radius: 0 5px 5px 0;
+}
+
+.clean img {
+    width: 30%;
+}
